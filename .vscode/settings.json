@@ -1,0 +1,48 @@
+{
+    "cSpell.words": [
+        "adipisci",
+        "adipisicing",
+        "amet",
+        "Beatae",
+        "consectetur",
+        "consequatur",
+        "consequuntur",
+        "corporis",
+        "Debitis",
+        "distinctio",
+        "dolorem",
+        "ducimus",
+        "eligendi",
+        "elit",
+        "Exercitationem",
+        "expedita",
+        "fugiat",
+        "ipsa",
+        "iste",
+        "itaque",
+        "laboriosam",
+        "laborum",
+        "Laborum",
+        "maxime",
+        "molestiae",
+        "necessitatibus",
+        "neque",
+        "numquam",
+        "perspiciatis",
+        "reiciendis",
+        "repellat",
+        "sapiente",
+        "sunt",
+        "Tempora",
+        "unde",
+        "voluptatibus"
+    ],
+    "cSpell.customDictionaries": {
+        "custom-dictionary-workspace": {
+            "name": "custom-dictionary-workspace",
+            "path": "${workspaceFolder:Portfolio-Website}/.cspell/custom-dictionary-workspace.txt",
+            "addWords": true,
+            "scope": "workspace"
+        }
+    }
+}

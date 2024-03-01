@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>My Portfolio</title>
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+	<nav id="desktop-nav">
+		<div class="logo">Ansh Dixit</div>
+		<div>
+			<ul class="nav-links">
+				<li><a href="#about">About</a></li>
+				<li><a href="#experience">Experience</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+	<nav id="hamburger-nav">
+		<div class="logo">Ansh Dixit</div>
+		<div class="hamburger-menu">
+			<div class="hamburger-icon" onclick="toggleMenu()">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="menu-links">
+				<li><a href="#about" onclick="toggleMenu()">About</a></li>
+				<li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+				<li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+				<li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+			</div>
+		</div>
+	</nav>
+	<section id="profile">
+		<div class="section__pic-container">
+			<img src="./assets/profile-pic.jpg" alt="Ansh Dixit profile picture" />
+		</div>
+		<div class="section__text">
+			<p class="section__text__p1">Hello, I'm</p>
+			<h1 class="title">Ansh Dixit</h1>
+			<p class="section__text__p2">Cyber Security Analyst</p>
+			<div class="btn-container"></div>
+			<button class="btn btn-color-2" onclick="window.open('./assets/AnshDixit_Resume_2024.pdf')">
+				Download CV
+			</button>
+			<button class="btn btn-color-1" onclick="location.href='./#contact'">
+				Contact Info
+			</button>
+		</div>
+		<div id="socials-container">
+			<img src="./assets/linkedin.png" alt="My Linkedin Profile" class="icon"
+				onclick="location.href='https://www.linkedin.com/in/anshdixit'" />
+			<img src="./assets/github.png" alt="My GitHub Profile" class="icon"
+				onclick="location.href='https://github.com/anshdixit04'" />
+		</div>
+		</div>
+	</section>
+	<section id="about">
+		<p class="section__text__p1">Get To Know Me</p>
+		<h1 class="title">About Me</h1>
+		<div class="section-container">
+			<div class="about-details-container">
+				<div class="about-containers">
+					<div class="details-container">
+						<img src="./assets/experience.png" alt="Experience Icon" class="icon" />
+						<h3>Experience</h3>
+						<p>
+							2nd year Of my Engineering
+						</p>
+					</div>
+					<div class="details-container">
+						<img src="./assets/education.png" alt="Education Icon" class="icon" />
+						<h3>Education</h3>
+						<p>B.Eng in Cyber System Engineering</p>
+					</div>
+				</div>
+				<div class="text-container">
+					<h2>Hey, I'm Ansh: Redefining Cyber Space</h2>
+					<p>Welcome to my digital playground, where I, Ansh Dixit, wield the keyboard like a maestro
+						conducting a symphony. A Cyber Security Analyst by trade, a 2nd-year Engineering prodigy by day,
+						and a master of the Binary Arts by night, I thrive in the realm where code meets creativity.</p>
+					<p>With a B.Eng in Cyber System Engineering under my belt, I fearlessly dive into the world of
+						programming languages. From HTML to CSS, C to C++, Python to Linux, I've tamed them all. But I'm
+						not just about the code; I break free from the binary with hobbies that range from shredding the
+						streets on my skateboard to diving into open-source contributions.</p>
+					<p>My projects? They're more than just lines of code; they're digital legacies. Whether it's the
+						mind-bending Arcade Snake Game, the Raspberry Pi controlled Robot, or the revolutionary
+						Mobile(remote) security control system, my creations speak volumes about my passion for
+						innovation.</p>
+					<p>So, if you're looking for a Cyber Security Analyst who doesn't just write code but crafts digital
+						symphonies, look no further. I'm Ansh Dixit, and I'm here to redefine cyber space, one line of
+						code at a time.</p>
+
+				</div>
+			</div>
+		</div>
+		<img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+	</section>
+	<section id="experience">
+		<p class="section__text__p1">Explore My</p>
+		<h1 class="title">Experience</h1>
+		<div class="experience-details-container">
+			<div class="about-containers">
+				<div class="details-container">
+					<h2 class="experience-sub-title"> My Techno-Linguistic Arsenal
+					</h2>
+					<div class="article-container">
+						<article>
+							<img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+							<div>
+								<h3>HTML</h3>
+								<p>Experienced</p>
+							</div>
+						</article>
+						<article>
+							<img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+							<div>
+								<h3>CSS</h3>
+								<p>Experienced</p>
+							</div>
+						</article>
+						<article>
+							<img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+							<div>
+								<h3>C</h3>
+								<p>Experienced</p>
+							</div>
+						</article>
+						<article>
+							<img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+							<div>
+								<h3>C++</h3>
+								<p>Experienced</p>
+							</div>
+						</article>
+						<article>
+							<img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+							<div>
+								<h3>Python</h3>
+								<p>Experienced</p>
+							</div>
+						</article>
+						<article>
+							<img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+							<div>
+								<h3>Linux</h3>
+								<p>Experienced</p>
+							</div>
+						</article>
+						<article>
+							<img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+							<div>
+								<h3>JavaScript</h3>
+								<p>Basic</p>
+							</div>
+						</article>
+						<article>
+							<img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+							<div>
+								<h3>TypeScript</h3>
+								<p>Basic</p>
+							</div>
+						</article>
+						<article>
+							<img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+							<div>
+								<h3>Git</h3>
+								<p>Experienced</p>
+							</div>
+						</article>
+						<article>
+							<img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+							<div>
+								<h3>Assembly</h3>
+								<p>Basic</p>
+							</div>
+						</article>
+					</div>
+				</div>
+				<div class="details-container">
+					<h2 class="experience-sub-title"> My Escape from the Binary
+					</h2>
+					<div class="article-container">
+						<article>
+							<img src="./assets/skateboarding-silhouette-6.png.crdownload" alt="Hobbies icon"
+								class="icon">
+							<div>
+								<h3>Skating</h3>
+							</div>
+						</article>
+						<article>
+							<img src="./assets/pp.png" alt="Hobbies icon" class="icon">
+							<div>
+								<h3>Coding</h3>
+							</div>
+						</article>
+						<article>
+							<img src="./assets/Gaming-PNG-HD.png.crdownload" alt="Hobbies icon" class="icon">
+							<div>
+								<h3>Gaming</h3>
+							</div>
+						</article>
+						<article>
+							<img src="./assets/positive-c004-512.webp" alt="Hobbies icon" class="icon">
+							<div>
+								<h3>Reading</h3>
+							</div>
+						</article>
+						<article>
+							<img src="./assets/github-contributions-counter-logo.png" alt="Hobbies icon" class="icon">
+							<div>
+								<h3>Open Source Contribution</h3>
+							</div>
+						</article>
+						<article>
+							<img src="./assets/Football-PNG-Image.png.crdownload" alt="Hobbies icon" class="icon">
+							<div>
+								<h3>Soccer</h3>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+		</div>
+		<img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+	</section>
+	<section id="projects">
+		<p class="section__text__p1">Browse My Projects</p>
+		<h1 class="title">Projects</h1>
+		<div class="experience-details-container">
+			<div class="about-containers">
+				<div class="details-container color-container">
+					<div class="article-container">
+						<img src="./assets/project-1.jpeg" alt="Project 1" class="Project-img" />
+					</div>
+					<h2 class="experience-sub-title project-title">Arcade Snake Game</h2>
+				</div>
+				<div class="details-container color-container">
+					<div class="article-container">
+						<img src="./assets/projec-2.jpg" alt="Project 2 " class="Project-img" />
+					</div>
+					<h2 class="experience-sub-title project-title">Raspberry pi controlled Robot</h2>
+				</div>
+				<div class="details-container color-container">
+					<div class="article-container">
+						<img src="./assets/project-3.jpg" alt="Project 3" class="Project-img" />
+					</div>
+					<h2 class="experience-sub-title project-title">Mobile(remote) security control system</h2>
+				</div>
+			</div>
+		</div>
+		<img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+	</section>
+	<section id="contact">
+		<p class="section__text__p1">Get in Touch</p>
+		<h1 class="title">Contact ME</h1>
+		<div class="contact-info-upper-container">
+			<div class="contact-info-container">
+				<img src="./assets/email.png" alt="Email icon" class="icon contact-icon" />
+				<p><a href="mailto:anshdixit325@gmail.com">anshdixit325@gmail.com</a></p>
+			</div>
+
+			<div class="contact-info-container">
+				<img src="./assets/linkedin.png" alt="linkedin icon" class="icon contact-icon" />
+				<p><a href="https://www.linkedin.com/in/anshdixit">LinkedIn</a></p>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<nav>
+			<div class="nav-links-container">
+				<ul class="nav-links">
+					<li><a href="#about">About</a></li>
+					<li><a href="#experience">Experience</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+		<p>Copyright &#169; 2023 Ansh Dixit. All Rights Reserved
+
+		</p>
+	</footer>
+	<script src=" script.js"></script>
+</body>
+
+</html>
